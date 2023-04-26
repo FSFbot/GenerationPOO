@@ -14,6 +14,17 @@ public class TestaCliente {
 
         System.out.print("Os dados para o cliente 2:\nNome: "+c2.getNome()+"\nCPF: "+c2.getCpf()+"\nEndereço: "+
                 c2.getEndereco()+"\nTelefone: "+c2.getTelefone());
+
+        System.out.println("Pessoa Física 1:");
+        System.out.println("Nome: " + pf1.getNome());
+        System.out.println("Telefone: " + pf1.getTelefone());
+        System.out.println("Endereço: " + pf1.getEndereco());
+        System.out.println("Renda: " + pf1.getRenda());
+
+        System.out.println("\nPessoa Física 2:");
+        System.out.println("Nome: " + pf2.getNome());
+        System.out.println("Telefone: " + pf2.getTelefone());
+        System.out.println("Renda: " + pf2.getRenda());
     }
 }
 
